@@ -1,0 +1,361 @@
+body{
+    background-color:rgb(219, 175, 175);
+}
+
+.container{
+    left:0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    position: absolute;
+    background-color: aquamarine;
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    height: 20em;
+    background-image: linear-gradient(rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.486),rgba(9, 64, 78, 0.164))
+    ,url(./img/banner.JPG);
+    background-size: cover;
+    top: 0%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.banner:hover{
+    height: 20em;
+    background-image: linear-gradient(rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.486),rgba(7, 53, 65, 0.068))
+    ,url(./img/banner.JPG);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    justify-content: space-between;
+    transition: 0.8s;
+}
+.banner ul li{
+    align-items: center;
+     display: inline-block;
+    margin:0 6px;
+    list-style: none;
+    transform: translate(12em);
+    padding-top: 1em;
+}
+ 
+.menui{
+    width: 40px;
+    position: absolute;
+    background-color: #fff;
+    margin-left: 58em;
+    margin-top: -3em;
+}
+
+.logo1{
+    width: 50px;
+    position: absolute;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+  a{
+      
+    justify-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    
+}
+  a:hover{
+    justify-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom:rgba(0, 217, 255, 0.432) 2px solid ;
+    background-color: rgba(255, 0, 0, 0.432);
+    
+}
+/* .banner */
+.header-contents{
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    width: 40%;
+    transform: translate(2em);
+    margin-top: 2em;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+
+/* ********************************* */
+
+/* ********************************* */
+
+.next1{
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   height: 60em; 
+   left: 0%;
+   right: 0%;
+   position: absolute;
+   margin-top: 20em;
+   background-color: rgb(10, 43, 49);
+   
+   
+}
+
+.hh1{
+    position:absolute;
+    color: #fff;
+    margin-top: 1em;
+    margin-left: 9.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xp1{
+    position: absolute;
+    margin-top: 8.5em;
+    margin-left: 5em;
+    
+    
+}
+ .xp2
+ {
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 22em;
+ }
+ .xp3
+ {
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 39em;
+ }
+ .xp4
+ {
+    position: absolute;
+    margin-top: 35em;
+    margin-left: 5em;
+ }
+ .xp5
+ {
+    position: absolute;
+    margin-top: 35em;
+    margin-left: 22em;
+ }
+ .xp6
+ {
+    position: absolute;
+    margin-top: 35em;
+    margin-left: 39em;
+ }
+.png1{
+width: 200px;
+margin-left: 3em;
+ }
+.co1{
+ color: rgb(139, 98, 98);
+ margin-left: 3em;
+}
+ 
+.p1{
+color: #fff;
+margin-left: 3em;
+}
+/* ********************************* */
+
+/* ********************************* */
+  
+.next3{
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   height: 23em; 
+   position: absolute;
+   margin-top: 80em;
+   left: 0%;
+   right: 0%;
+   background-color: rgb(26, 27, 26);
+}
+.hh3{
+    color: #fff;
+    position:absolute;
+    margin-top: 2em;
+    margin-left: 15em;
+    font-size: small;
+    font-family:sans-serif;
+}
+pre{
+    margin-top: 5em;
+    margin-left: 10em;
+}
+input,textarea{
+    padding: 0.8em;
+    border: none;
+    border-radius: 3px;
+}
+textarea{
+    width: 12.9em;
+    height: 5em;
+}
+.useful-link{
+    margin-top: -3em;
+    position: absolute;
+    margin-left: 35em;
+
+}
+.social-link{
+    margin-top: 4em;
+position: absolute;  
+margin-left: 3em;  
+}
+.so-icon1:hover{
+    margin-top: -18em;
+    position: absolute;
+    padding: 5px;
+   width: 40px;
+   margin-left: 24em;
+   border-radius: 30px;
+   background-color: rgb(10, 43, 49);
+}
+ .so-icon1 {
+    margin-top: -18em;
+    position: absolute;
+    padding: 5px;
+   width: 40px;
+   margin-left: 24em;
+ }
+ .so-icon2:hover{
+    margin-top: -18em;
+    position: absolute;
+    padding: 5px;
+   width: 40px;
+   margin-left: 27em;
+   border-radius: 30px;
+   background-color: rgb(10, 43, 49);
+ }
+ .so-icon3:hover{
+    margin-top: -18em;
+    position: absolute;
+    padding: 5px;
+   width: 40px;
+   margin-left: 30em;
+   border-radius: 30px;
+   background-color: rgb(10, 43, 49);
+ }
+ .so-icon2{
+    margin-top: -18em;
+    position: absolute;
+    padding: 5px;
+   width: 40px;
+   margin-left: 27em;
+ } 
+ .so-icon3{
+    margin-top: -18em;
+    position: absolute;
+    padding: 5px;
+   width: 40px;
+   margin-left: 30em;
+     
+}
+ 
+.but3{
+    width: 14em;
+    margin-left: -1em;
+    height: 3em;
+    position: absolute;
+    background-color: rgb(10, 43, 49);
+    border-style: none;
+    color: #fff;
+    
+}
+.but2{
+    width: 14em;
+    height: 3em;
+    margin-top: -6em;
+    margin-left: 5.8em;
+    position: absolute;
+    background-color: rgb(10, 43, 49);
+    border-style: none;
+    color: #fff;
+    
+}
+.ip4{
+    position: absolute;
+    margin-top: -2.6em;
+    margin-left: 5.8em;
+}
+.H33{
+    margin-top: -7em;
+    position: absolute;
+    margin-left: 5.8em;
+    color: #fff;
+}
+.a1{
+    background-color: transparent;
+}
+.a1 ,.a2:hover{
+    border: none;
+    background-color: transparent;
+}
+.a22:hover{
+    border: none;
+    background-color: transparent;
+}
+.ul{
+    position: absolute;
+    margin-top: 9em;
+}
+.aa1,.aa2,.aa3{
+    position: absolute;
+    margin-top: -6em;
+    margin-left: 22em;
+}
+.aa1{
+    margin-top: -14em;
+    width: 10em;
+}
+.aa2{
+    margin-top: -12em;
+}
+.aa3{
+    margin-top: -16em;
+    width: 10em;
+}
+.aa1:hover{
+    
+    border: none;
+    background-color: transparent;
+}
+.aa2:hover{
+    border: none;
+    background-color: transparent;
+}
+.aa3:hover{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+/* copyright */
+.copy{
+    width: 100%;
+    margin-top: 3em;
+    background-color: rgb(10, 43, 49);
+    height: 8em;
+    position: absolute;
+}
+.p3{
+    color: #fff;
+    transform: translate(30em);
+    font-size: small;
+    margin-top: 5em;
+    font-family: monospace;
+    position: absolute;
+}
